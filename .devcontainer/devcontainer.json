@@ -1,0 +1,8 @@
+{
+  "image": "ghcr.io/robinmordasiewicz/devcontainer-sample:latest",
+  "initializeCommand": "docker pull ghcr.io/robinmordasiewicz/devcontainer-sample:latest",
+  "name": "sample-repo",
+  "runArgs": [
+    "--hostname=sample-repo"
+  ]
+}
